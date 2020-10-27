@@ -1,0 +1,130 @@
+body{
+    background-color: #EDEDED; 
+}
+
+.navbar{
+    max-height: 50px; 
+	background-color: #cacccb; 
+    font-size: 15px; 
+}
+
+.navigation .navbar-brand{
+	color: rgb(255, 255, 255); 
+	margin-left: 50px; 
+	padding: inherit; 
+	font-weight: bold; 
+	background-color: #38ab87;
+	font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+.dropdown-item{
+    color: #254d49; 
+}
+
+.dropdown-menu .dropdown-item:hover, .dropdown-menu .dropdown-item:active{
+    background-color:#adc7c4; 
+}
+
+.nav-link:hover{
+    background-color:#adc7c4;
+}
+
+h1, h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: lightseagreen;
+}
+  
+h1{
+    font-size: 24px;
+    font-weight: bold;
+    text-align:left;
+}
+  
+h2{
+    font-size: 22px;
+    font-weight: bold;
+    text-align:left;
+}
+  
+p{
+    color: rgb(87, 75, 75);
+    text-align:left;
+}
+
+.description-content {
+	margin-top: 30px;
+	margin-bottom: 60px;
+	padding: 10px 30px 5px;
+	color: black;
+	background-color: white;
+}
+
+.imageNav-content {
+	margin-top: 40px;
+	margin-bottom: 20px;
+	padding: 10px 30px 40px;
+	color: black;
+	background-color: white;
+}
+.description-header, .imageNav-header {
+	padding-top: 15px; 
+	padding-left: 4px;
+	color: #38ab87;
+	font-size: 26px;
+	font-weight: bold;
+	font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+img{
+	width: 100%;
+    height: 100%;
+    color: rgb(73, 95, 38);
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+}
+
+#imgsel{
+    border: rgb(19, 197, 188) 2px solid;
+}
+
+.description-image {
+	float: left;
+	width: 60%;
+	height: 60%;
+}
+
+p{
+	color: #414d4a;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.divtable{
+    text-align:center;
+    background-color: white;
+    z-index:1;
+}
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color:rgba(168, 193, 219, 0.75)   
+}
+.table-striped>tbody>tr:nth-of-type(even) {
+    background-color:rgba(253, 255, 252, 0.5)   
+}  
+
+.footer{
+	background-color: #505251; 
+    border-top-style: solid; 
+    border-top-width: 4px; 
+    border-top-color: #38ab87;
+    color: white; 
+    min-height: 50px; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px; 
+    text-align: center; 
+    position: fixed;
+    padding-top: 10px; 
+	width: 100%;
+	left: 0;
+	bottom: 0;
+}
